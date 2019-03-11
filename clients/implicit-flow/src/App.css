@@ -2,6 +2,28 @@
   text-align: center;
 }
 
+.NavBar {
+  background-color: #464D59;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 50px;
+}
+
+.App-link {
+  padding: 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-link a {
+  color: #61dafb;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -11,8 +33,4 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
