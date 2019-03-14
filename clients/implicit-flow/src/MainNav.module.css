@@ -1,0 +1,62 @@
+.containers {
+    background-color: #464D59;
+    padding: 0px 20px;
+}
+
+.titleRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50px;
+}
+
+.title {
+    text-align: left;
+    color: white;
+    flex: 1;
+}
+
+.user {
+    color: white;
+}
+
+.button {
+    background-color: #5F6773;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.button:hover {
+    background-color: #808690;
+}
+
+.navRow {
+    background-color: #464D59;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50px;
+}
+
+.navLink {
+    margin-right: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navLink a {
+    color: white;
+}
+
+.navLink a:hover {
+    color: lightgrey;
+}
