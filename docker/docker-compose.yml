@@ -1,0 +1,14 @@
+version: "2"
+services:
+  keycloak:
+    image: jboss/keycloak:4.8.3.Final
+    restart: on-failure:5
+    environment:
+      KEYCLOAK_USER: admin
+      KEYCLOAK_PASSWORD: admin
+      KEYCLOAK_IMPORT: /tmp/realm-export.json
+    ports:
+      - "8080:8080"
+    volumes:
+      - .keycloak/realm-export.json:/tmp/realm-export.json
+      - .keycloak/bootstrapUsers.sh:/opt/jboss/startup-scripts/bootstrapUsers.sh
