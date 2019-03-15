@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { AuthenticationConsumer } from "@axa-fr/react-oidc-context"
 import { Link } from "react-router-dom"
 
 import styles from './MainNav.module.css'
