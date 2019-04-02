@@ -55,4 +55,10 @@ declare module "@axa-fr/react-oidc-context" {
 
   export function withOidcSecure<P>(component: React.ComponentType<P>): React.ComponentClass<P>
 
+  export type UserManager = {
+    signinSilent(): Promise<OidcUser>
+  }
+
+  export function getUserManager(): UserManager
+
 }

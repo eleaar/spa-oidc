@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@axa-fr/react-oidc-context@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@axa-fr/react-oidc-context/-/react-oidc-context-1.2.1.tgz#a9b443187e3a8ae55ac56bfea66cf3dc9dd399f6"
-  integrity sha512-sShKShszzCKXWY0JcR4cBLfOvopTcuRM2waV3fDNvfNefo9Xg2PIpM3MaFU9TMqRD8Hu602Nx0gpgWzlMA+RbA==
+"@axa-fr/react-oidc-context@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@axa-fr/react-oidc-context/-/react-oidc-context-1.3.0.tgz#f669447a341c74d9d925b0347a46a56dad539eab"
+  integrity sha512-3YseA3GRNuu379SWnfaf9592EjM378DIqon057syvWnLpxElNDk0Agx7EEPdTdXnZBRo3sXI10cx3Q6oGzj7NQ==
   dependencies:
     oidc-client "^1.5.2"
     prop-types "~15.6.2"

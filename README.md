@@ -9,7 +9,7 @@ cd docker
 docker-compose up -d
 ```
 
-Keycloak is available at http://localhost:8080, user `admin`/`admin`.
+Keycloak is available at <http://localhost:8080>, user `admin`/`admin`.
 
 ## Launch SPA
 
@@ -21,7 +21,7 @@ yarn start
 
 ## Test SPA
 
-You can test the app at http://localhost:3000
+You can test the app at <http://localhost:3000>
 
 You can log with the keycloak preconfigured user `luke`/`luke`.
 
