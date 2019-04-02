@@ -57,6 +57,10 @@ declare module "@axa-fr/react-oidc-context" {
 
   export type UserManager = {
     signinSilent(): Promise<OidcUser>
+    removeUser(): Promise<void>
+    events: {
+      addUserSignedOut: (cb: () => void) => void
+    }
   }
 
   export function getUserManager(): UserManager

@@ -28,7 +28,11 @@ function Hidden() {
 
 const TryLoginOnLoad = () => {
   React.useEffect(() => {
-    getUserManager().signinSilent()
+    const manager = getUserManager()
+    manager.events.addUserSignedOut(() => manager.removeUser())
+    manager.signinSilent().catch(
+      () => manager.removeUser()
+    )
   }, [])
   return <></>
 }

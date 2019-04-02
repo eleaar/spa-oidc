@@ -1,5 +1,6 @@
 const oidcConfiguration = {
-  response_type: "id_token token",
+  response_type: "code",
+  // response_type: "id_token token",
   scope: "openid profile email",
   redirect_uri: "http://localhost:3000/authentication/callback",
   silent_redirect_uri: "http://localhost:3000/authentication/silent_callback",
